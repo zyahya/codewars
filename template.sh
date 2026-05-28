@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Show help message
+if [[ "$1" == "-h" || "$1" == "--help" ]]; then
+    echo "Usage: $0 <directory-path> [extension]"
+    echo "  <directory-path>   Directory to create (required)"
+    echo "  [extension]        File extension for solution file (default: cs)"
+    echo "Options:"
+    echo "  -h, --help         Show this help message and exit"
+    exit 0
+fi
+
 # Check if directory path is provided
 if [ -z "$1" ]; then
     echo "Usage: $0 <directory-path> [extension]"
