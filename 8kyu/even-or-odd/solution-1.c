@@ -1,4 +1,4 @@
-const char* even_or_odd(int number)
+const char *even_or_odd(int number)
 {
-  return number % 2 == 0 ? "Even" : "Odd";
+    return number % 2 == 0 ? "Even" : "Odd";
 }
