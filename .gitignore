@@ -1,2 +1,4 @@
 *.exe
 [Dd]raft
+*.sln
+*.slnx
