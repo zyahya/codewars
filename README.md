@@ -5,6 +5,8 @@
   </span>
 </h1>
 
+![](https://www.codewars.com/users/zyahya/badges/large?theme=light)
+
 Quick links:
 
 - C#
