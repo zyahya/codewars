@@ -11,3 +11,7 @@ Quick links:
   - [8kyu Problems](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc)
 - C
   - [8kyu Problems](https://www.codewars.com/kata/search/c?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc)
+
+To solve again:
+
+- square every digit
