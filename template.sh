@@ -53,7 +53,7 @@ if [[ -n "$LEVEL_LOWER" ]]; then
         BEGIN { section=0; inserted=0 }
         {
             print $0
-            if ($0 ~ "^# " level "$") {
+            if ($0 ~ "^### " level "$") {
                 section=1
             } else if ($0 ~ "^# " && section==1) {
                 section=0

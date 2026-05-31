@@ -15,14 +15,14 @@
 
 ## Solutions
 
-# 7kyu
+### 7kyu
 
 | Problem            | Level | Solution                               | Notes |
 | ------------------ | ----- | -------------------------------------- | ----- |
 | Square every digit | 7kyu  | [solution](./7kyu/square-every-digit/) |       |
 | Vowel count        | 7kyu  | [solution](./7kyu/vowel-count/)        |       |
 
-# 8kyu
+### 8kyu
 
 | Problem                    | Level | Solution                                       | Notes |
 | -------------------------- | ----- | ---------------------------------------------- | ----- |
@@ -45,3 +45,4 @@
 | Square n sum               | 8kyu  | [solution](./8kyu/square-n-sum/)               |       |
 | String repeat              | 8kyu  | [solution](./8kyu/string-repeat/)              |       |
 | Sum of positive            | 8kyu  | [solution](./8kyu/sum-of-positive/)            |       |
+| Test                       | 8kyu  | [solution](./8kyu/test/)                       |       |
