@@ -20,6 +20,6 @@ To solve again:
 
 ## Solutions
 
-| Problem           | Level | Solution                                  |
-| ----------------- | ----- | ----------------------------------------- |
-| Find the smallest | 8kyu  | [solution](./8kyu/find-the-smallest-int/) |
+| Problem           | Level | Solution                                  | Notes |
+| ----------------- | ----- | ----------------------------------------- | ----- |
+| Find the smallest | 8kyu  | [solution](./8kyu/find-the-smallest-int/) |       |
