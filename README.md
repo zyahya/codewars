@@ -5,15 +5,21 @@
   </span>
 </h1>
 
-Quick links:
+## Quick Links
 
-- C#
-  - [8kyu Problems](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc)
-  - [7kyu Problems](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc)
-- C
-  - [8kyu Problems](https://www.codewars.com/kata/search/c?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc)
+| Language | Level                                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| C#       | [8kyu Problems](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc) |
+|          | [7kyu Problems](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc) |
+| C        | [8kyu Problems](https://www.codewars.com/kata/search/c?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc)      |
 
 To solve again:
 
 - square every digit
 - grasshopper summation
+
+## Solutions
+
+| Problem           | Level | Solution                                  |
+| ----------------- | ----- | ----------------------------------------- |
+| Find the smallest | 8kyu  | [solution](./8kyu/find-the-smallest-int/) |
