@@ -16,3 +16,4 @@ Quick links:
 To solve again:
 
 - square every digit
+- grasshopper summation
