@@ -33,3 +33,38 @@ touch "$DIR/solution.$EXT"
 touch "$DIR/README.md"
 
 echo "Created '$DIR' with solution.$EXT and README.md."
+
+# Append entry to README.md in the required format
+PROBLEM_NAME=$(basename "$DIR" | sed 's/-/ /g; s/\b\w/\u&/g')
+LEVEL=$(echo "$DIR" | grep -oE '^[^/\\]+' | tr '[:lower:]' '[:upper:]')
+if [[ "$LEVEL" == "7KYU" || "$LEVEL" == "8KYU" ]]; then
+    LEVEL_LOWER=$(echo "$LEVEL" | tr '[:upper:]' '[:lower:]')
+    # Only 7kyu and 8kyu supported for now
+else
+    LEVEL_LOWER=""
+fi
+if [[ -n "$LEVEL_LOWER" ]]; then
+    # Compose the line in the required format
+    NEW_LINE="| $PROBLEM_NAME | $LEVEL_LOWER  | [solution](./$DIR/) |       |"
+
+    # Insert into the correct level section table (after header separator)
+    TMP_FILE=$(mktemp)
+    awk -v level="$LEVEL_LOWER" -v newline="$NEW_LINE" '
+        BEGIN { section=0; inserted=0 }
+        {
+            print $0
+            if ($0 ~ "^# " level "$") {
+                section=1
+            } else if ($0 ~ "^# " && section==1) {
+                section=0
+            }
+
+            if (section==1 && $0 ~ /^\|[[:space:]]*-+/ && inserted==0) {
+                print newline
+                inserted=1
+            }
+        }
+        END { if (inserted==0) { print newline } }
+    ' README.md > "$TMP_FILE"
+    mv "$TMP_FILE" README.md
+fi
