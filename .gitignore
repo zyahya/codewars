@@ -1,2 +1,7 @@
 # C/C++
 *.exe
+
+# C#
+
+[Bb]in
+[Oo]bj
