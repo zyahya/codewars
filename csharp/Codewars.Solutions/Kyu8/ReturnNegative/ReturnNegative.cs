@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.ReturnNegative;
+﻿using System;
+
+namespace Codewars.Solutions.Kyu8.ReturnNegative;
 
 public class ReturnNegative
 {

@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.LeapYears;
+﻿using System;
+
+namespace Codewars.Solutions.Kyu8.LeapYears;
 
 public class LeapYears
 {

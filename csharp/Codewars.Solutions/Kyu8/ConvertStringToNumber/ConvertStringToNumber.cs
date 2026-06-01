@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.ConvertStringToNumber;
+﻿using System;
+
+namespace Codewars.Solutions.Kyu8.ConvertStringToNumber;
 
 public class ConvertStringToNumber
 {

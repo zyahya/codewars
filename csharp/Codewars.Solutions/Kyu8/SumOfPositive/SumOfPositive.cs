@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.SumOfPositive;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu8.SumOfPositive;
 
 public class SumOfPositive
 {

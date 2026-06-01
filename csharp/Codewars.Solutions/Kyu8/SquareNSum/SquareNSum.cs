@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.SquareNSum;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu8.SquareNSum;
 
 public class SquareNSum
 {

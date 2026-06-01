@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu7.VowelCount;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu7.VowelCount;
 
 public class VowelCount
 {

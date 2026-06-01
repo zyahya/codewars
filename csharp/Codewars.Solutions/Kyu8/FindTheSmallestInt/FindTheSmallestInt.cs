@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.FindTheSmallestInt;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu8.FindTheSmallestInt;
 
 public class FindTheSmallestInt
 {

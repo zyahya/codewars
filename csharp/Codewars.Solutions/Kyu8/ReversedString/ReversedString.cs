@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.ReversedString;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu8.ReversedString;
 
 public class ReversedString
 {

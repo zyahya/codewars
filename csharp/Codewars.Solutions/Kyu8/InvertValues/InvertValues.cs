@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.InvertValues;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu8.InvertValues;
 
 public class InvertValues
 {

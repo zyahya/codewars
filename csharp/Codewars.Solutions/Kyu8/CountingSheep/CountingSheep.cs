@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.CountingSheep;
+﻿using System;
+
+namespace Codewars.Solutions.Kyu8.CountingSheep;
 
 public class CountingSheep
 {

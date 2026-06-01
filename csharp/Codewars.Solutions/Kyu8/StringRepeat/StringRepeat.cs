@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.StringRepeat;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu8.StringRepeat;
 
 public class StringRepeat
 {

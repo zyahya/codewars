@@ -1,4 +1,8 @@
-﻿namespace Codewars.Solutions.Kyu7.SquareEveryDigit;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Codewars.Solutions.Kyu7.SquareEveryDigit;
 
 public class SquareEveryDigit
 {

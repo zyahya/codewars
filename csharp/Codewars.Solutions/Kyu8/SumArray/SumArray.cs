@@ -1,4 +1,6 @@
-﻿namespace Codewars.Solutions.Kyu8.SumArray;
+﻿using System.Linq;
+
+namespace Codewars.Solutions.Kyu8.SumArray;
 
 public class SumArray
 {
