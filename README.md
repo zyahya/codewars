@@ -26,6 +26,7 @@
 
 | Problem                    | Level | Solution                                       | Notes |
 | -------------------------- | ----- | ---------------------------------------------- | ----- |
+| Returning String | 8kyu  | [solution](./8kyu/returning-string/) |       |
 | Convert boolean values     | 8kyu  | [solution](./8kyu/convert-boolean-values/)     |       |
 | Convert number to string   | 8kyu  | [solution](./8kyu/convert-number-to-string/)   |       |
 | Convert string to number   | 8kyu  | [solution](./8kyu/convert-string-to-number/)   |       |
