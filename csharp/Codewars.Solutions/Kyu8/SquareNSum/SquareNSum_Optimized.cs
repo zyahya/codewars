@@ -1,11 +1,11 @@
-﻿using System.Linq;
+using System.Linq;
 
 namespace Codewars.Solutions.Kyu8.SquareNSum;
 
-public class SquareNSum
+public class SquareNSum_Optimized
 {
     public static int Solution(int[] numbers)
     {
-        return numbers.Select(x => x *= x).Sum();
+        return numbers.Sum(x => x * x);
     }
 }
