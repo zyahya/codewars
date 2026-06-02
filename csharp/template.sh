@@ -4,13 +4,15 @@ LEVEL="$1"
 PROBLEM_NAME="$2"
 
 if [[ -z "$LEVEL" || -z "$PROBLEM_NAME" ]]; then
-	echo "Usage: $0 <KyuLevel> <ProblemName>"
-	echo "Example: $0 Kyu8 square-n-sum"
+	echo "Usage: $0 <LevelNumber> <ProblemName>"
+	echo "Example: $0 8 SquareNSum"
 	exit 1
 fi
 
-# Normalize common level aliases like 8Kyu -> Kyu8
-if [[ "$LEVEL" =~ ^([0-9]+)[Kk]yu$ ]]; then
+# Normalize common level aliases like 8 or 8Kyu -> Kyu8
+if [[ "$LEVEL" =~ ^([0-9]+)$ ]]; then
+	LEVEL="Kyu${BASH_REMATCH[1]}"
+elif [[ "$LEVEL" =~ ^([0-9]+)[Kk]yu$ ]]; then
 	LEVEL="Kyu${BASH_REMATCH[1]}"
 fi
 
