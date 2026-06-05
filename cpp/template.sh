@@ -21,16 +21,7 @@ dir="${kyu}kyu/${problem_name}"
 
 mkdir -p "$dir"
 touch "$dir/README.md"
-
-# Left as 'EOF' because solution.cpp doesn't need Bash variables
-cat > "$dir/solution.cpp" <<'EOF'
-#include <cassert>
-
-namespace solution
-{
-
-}
-EOF
+touch "$dir/solution.cpp"
 
 # Changed to EOF (no quotes) so $dir will expand
 cat > "$dir/test.cpp" <<EOF
