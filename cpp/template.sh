@@ -22,12 +22,27 @@ dir="${kyu}kyu/${problem_name}"
 mkdir -p "$dir"
 touch "$dir/README.md"
 
+# Left as 'EOF' because solution.cpp doesn't need Bash variables
 cat > "$dir/solution.cpp" <<'EOF'
 #include <cassert>
 
-int main() {
+namespace solution
+{
 
-  return 0;
+}
+EOF
+
+# Changed to EOF (no quotes) so $dir will expand
+cat > "$dir/test.cpp" <<EOF
+#include "../../doctest.h"
+#include "./solution.cpp"
+
+TEST_CASE("$dir")
+{
+    SUBCASE("Solution 1")
+    {
+        // CHECK(solution::solution() == );
+    }
 }
 EOF
 
