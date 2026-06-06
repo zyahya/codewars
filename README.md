@@ -5,51 +5,71 @@
   </span>
 </h1>
 
-## Quick Links
-
-| Language | Level                                                                                                                        |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| C#       | [8kyu Problems](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc) |
-|          | [7kyu Problems](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-7&xids=played&beta=false&order_by=popularity%20desc) |
-| C        | [8kyu Problems](https://www.codewars.com/kata/search/c?q=&r%5B%5D=-8&xids=played&beta=false&order_by=popularity%20desc)      |
-
 ## Solutions
 
-### 7kyu
+### C#
 
-| Problem            | Level | Solution                               | Notes |
-| ------------------ | ----- | -------------------------------------- | ----- |
-| Square every digit | 7kyu  | [solution](./7kyu/square-every-digit/) |       |
-| Vowel count        | 7kyu  | [solution](./7kyu/vowel-count/)        |       |
+#### 7kyu
 
-### 8kyu
+| Problem            | Level | Solution                               |
+| ------------------ | ----- | -------------------------------------- |
+| Square every digit | 7kyu  | [Solution](./7kyu/square-every-digit/) |
+| Vowel count        | 7kyu  | [Solution](./7kyu/vowel-count/)        |
 
-| Problem                       | Level | Solution                                          | Notes |
-| ----------------------------- | ----- | ------------------------------------------------- | ----- |
-| Invert Values                 | 8kyu  | [solution](./8kyu/invert-values/)                 |       |
-| Convert A Boolean To A String | 8kyu  | [solution](./8kyu/convert-a-boolean-to-a-string/) |       |
-| Centry From Year              | 8kyu  | [solution](./8kyu/centry-from-year/)              |       |
-| Simple Multiplication         | 8kyu  | [solution](./8kyu/simple-multiplication/)         |       |
-| Sum Array                     | 8kyu  | [solution](./8kyu/sum-array/)                     |       |
-| Returning String              | 8kyu  | [solution](./8kyu/returning-string/)              |       |
-| Convert boolean values        | 8kyu  | [solution](./8kyu/convert-boolean-values/)        |       |
-| Convert number to string      | 8kyu  | [solution](./8kyu/convert-number-to-string/)      |       |
-| Convert string to number      | 8kyu  | [solution](./8kyu/convert-string-to-number/)      |       |
-| Counting sheep                | 8kyu  | [solution](./8kyu/counting-sheep/)                |       |
-| Even or odd                   | 8kyu  | [solution](./8kyu/even-or-odd/)                   |       |
-| Find all active students      | 8kyu  | [solution](./8kyu/find-all-active-students/)      |       |
-| Find the smallest int         | 8kyu  | [solution](./8kyu/find-the-smallest-int/)         |       |
-| Grasshopper select columns    | 8kyu  | [solution](./8kyu/grasshopper-select-columns/)    |       |
-| Grasshopper summation         | 8kyu  | [solution](./8kyu/grasshopper-summation/)         |       |
-| Leap years                    | 8kyu  | [solution](./8kyu/leap-years/)                    |       |
-| Multiply                      | 8kyu  | [solution](./8kyu/multiply/)                      |       |
-| Opposite number               | 8kyu  | [solution](./8kyu/opposite-number/)               |       |
-| Remove first last             | 8kyu  | [solution](./8kyu/remove-first-last/)             |       |
-| Remove string spaces          | 8kyu  | [solution](./8kyu/remove-string-spaces/)          |       |
-| Return negative               | 8kyu  | [solution](./8kyu/return-negative/)               |       |
-| Reversed string               | 8kyu  | [solution](./8kyu/reversed-string/)               |       |
-| Square n sum                  | 8kyu  | [solution](./8kyu/square-n-sum/)                  |       |
-| String repeat                 | 8kyu  | [solution](./8kyu/string-repeat/)                 |       |
-| Sum of positive               | 8kyu  | [solution](./8kyu/sum-of-positive/)               |       |
-| Test                          | 8kyu  | [solution](./8kyu/test/)                          |       |
+#### 8kyu
 
+| Problem                                          | Level | Solution                                                                                |
+| ------------------------------------------------ | ----- | --------------------------------------------------------------------------------------- |
+| Alternate Case                                   | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/AlternateCase/)                             |
+| Basic Mathematical Operation                     | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/BasicMathematicalOperation/)                |
+| Century From Year                                | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/CenturyFromYear/)                           |
+| Convert a Boolean to String                      | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ConvertABooleanToString/)                   |
+| Convert Boolean Values                           | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ConvertBooleanValues/)                      |
+| Convert Number to String                         | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ConvertNumberToString/)                     |
+| Convert String to Number                         | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ConvertStringToNumber/)                     |
+| Counting Sheep                                   | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/CountingSheep/)                             |
+| Even Or Odd                                      | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/EvenOrOdd/)                                 |
+| Find Maximum And Minimum Values Of a List        | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/FindMaximumAndMinimumValuesOfAList/)        |
+| Find Numbers Which Are Divisible By Given Number | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/FindNumbersWhichAreDivisibleByGivenNumber/) |
+| Find The Smallest Int                            | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/FindTheSmallestInt/)                        |
+| Grasshopper Summation                            | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/GrasshopperSummation/)                      |
+| Invert Values                                    | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/InvertValues/)                              |
+| Is N Divisible By X And Y                        | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/IsNDivisibleByXAndY/)                       |
+| Is The String Uppercase                          | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/IsTheStringUppercase/)                      |
+| Keep Hydrated                                    | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/KeepHydrated/)                              |
+| Leap Years                                       | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/LeapYears/)                                 |
+| Make Upper Case                                  | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/MakeUpperCase/)                             |
+| Multiply                                         | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/Multiply/)                                  |
+| Opposite Number                                  | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/OppositeNumber/)                            |
+| Price Of Mangoes                                 | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/PriceOfMangoes/)                            |
+| Reduce But Grow                                  | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ReduceButGrow/)                             |
+| Remove Exclamation Marks                         | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/RemoveExclamationMarks/)                    |
+| Remove First Last                                | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/RemoveFirstLast/)                           |
+| Remove String Spaces                             | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/RemoveStringSpaces/)                        |
+| Returning String                                 | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ReturningString/)                           |
+| Return Negative                                  | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ReturnNegative/)                            |
+| Reversed String                                  | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/ReversedString/)                            |
+| Simple Multiplication                            | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/SimpleMultiplication/)                      |
+| Square N Sum                                     | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/SquareNSum/)                                |
+| String Repeat                                    | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/StringRepeat/)                              |
+| Sum Array                                        | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/SumArray/)                                  |
+| Sum Of Positive                                  | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/SumOfPositive/)                             |
+| Sum The Strings                                  | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/SumTheStrings/)                             |
+
+### C++
+
+#### 8kyu
+
+| Problem        | Level | Solution                               |
+| -------------- | ----- | -------------------------------------- |
+| alternate case | 8kyu  | [Solution](./cpp/8kyu/alternate_case/) |
+| multiply       | 8kyu  | [Solution](./cpp/8kyu/multiply/)       |
+
+### C
+
+#### 8kyu
+
+| Problem                | Level | Solution                                    |
+| ---------------------- | ----- | ------------------------------------------- |
+| even or odd            | 7kyu  | [Solution](./c/8kyu/even_or_odd/)           |
+| convert boolean values | 4kyu  | [Solution](./c/8kyu/conver_boolean_values/) |
