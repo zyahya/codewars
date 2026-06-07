@@ -20,6 +20,7 @@
 
 | Problem                                          | Level | Solution                                                                                |
 | ------------------------------------------------ | ----- | --------------------------------------------------------------------------------------- |
+| All Start Code Challenge18 | 8kyu | [Solution](./csharp/Codewars.Solutions/Kyu8/AllStartCodeChallenge18/) |
 | Alternate Case                                   | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/AlternateCase/)                             |
 | Basic Mathematical Operation                     | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/BasicMathematicalOperation/)                |
 | Century From Year                                | 8kyu  | [Solution](./csharp/Codewars.Solutions/Kyu8/CenturyFromYear/)                           |
