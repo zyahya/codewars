@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="Codewars.Solutions/Codewars.Solutions.csproj" />
-  <Project Path="Codewars.Console/Codewars.Console.csproj" />
+  <Project Path="Codewars.Solutions.csproj" />
 </Solution>
