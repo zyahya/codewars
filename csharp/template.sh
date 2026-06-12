@@ -17,16 +17,31 @@ elif [[ "$LEVEL" =~ ^([0-9]+)[Kk]yu$ ]]; then
 fi
 
 mkdir -p "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME"
-dotnet new class --name "$PROBLEM_NAME" --output "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME" --force
 touch "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME/README.md"
+touch "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME/"$PROBLEM_NAME".cs"
+touch "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME/"$PROBLEM_NAME"Tests.cs"
 
-mkdir -p "./Codewars.Tests/$LEVEL/${PROBLEM_NAME}Tests"
-dotnet new class --name "${PROBLEM_NAME}Tests" --output "./Codewars.Tests/$LEVEL/${PROBLEM_NAME}Tests" --force
+cat > "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME/"$PROBLEM_NAME".cs" <<EOF
+namespace Codewars.Solutions.$LEVEL.$PROBLEM_NAME;
 
-# Fix the namespace in the generated file
-sed -i "s/namespace Codewars.Solutions;/namespace Codewars.Solutions.$LEVEL.$PROBLEM_NAME;/" "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME/$PROBLEM_NAME.cs"
+public class $PROBLEM_NAME
+{
 
-sed -i "s/namespace Codewars.Tests;/namespace Codewars.Tests.$LEVEL.${PROBLEM_NAME}Tests;/" "./Codewars.Tests/$LEVEL/${PROBLEM_NAME}Tests/${PROBLEM_NAME}Tests.cs"
+}
+EOF
+
+cat > "./Codewars.Solutions/$LEVEL/$PROBLEM_NAME/"$PROBLEM_NAME"Tests.cs" <<EOF
+namespace Codewars.Solutions.$LEVEL.$PROBLEM_NAME;
+
+public class ${PROBLEM_NAME}Tests
+{
+    [Fact]
+    public void Test1()
+    {
+
+    }
+}
+EOF
 
 # Add entry to root README.md with title and path to the solution
 README_PATH="../README.md"
