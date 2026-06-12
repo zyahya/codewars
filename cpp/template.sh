@@ -21,23 +21,23 @@ dir="${kyu}kyu/${problem_name}"
 
 mkdir -p "$dir"
 touch "$dir/README.md"
-touch "$dir/solution.cpp"
+touch "$dir/${problem_name}.cpp"
 
 # Changed to EOF (no quotes) so $dir will expand
-cat > "$dir/test.cpp" <<EOF
+cat > "$dir/${problem_name}_tests.cpp" <<EOF
 #include "../../doctest.h"
-#include "./solution.cpp"
+#include "./${problem_name}.cpp"
 
 TEST_CASE("$dir")
 {
     SUBCASE("Solution 1")
     {
-        // CHECK(solution::solution() == );
+        // CHECK(solution() == );
     }
 }
 EOF
 
-echo "Created: $dir/solution.cpp"
+echo "Created: $dir/${problem_name}.cpp"
 
 # Add entry to root README.md with title and path to the solution (scoped to C++ section)
 README_PATH="../README.md"
