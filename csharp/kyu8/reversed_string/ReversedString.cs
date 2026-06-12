@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Codewars.Solutions.kyu8.ReversedString;
+namespace Codewars.Solutions.kyu8.reversed_string;
 
 public class ReversedString
 {

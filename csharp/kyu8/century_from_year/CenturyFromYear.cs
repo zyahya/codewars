@@ -1,4 +1,4 @@
-﻿namespace Codewars.Solutions.kyu8.CenturyFromYear;
+﻿namespace Codewars.Solutions.kyu8.century_from_year;
 
 public class CenturyFromYear
 {

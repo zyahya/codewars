@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Codewars.Solutions.kyu8.InvertValues;
+namespace Codewars.Solutions.kyu8.invert_values;
 
 public class InvertValues
 {

@@ -51,7 +51,7 @@
 | Convert String To Number | kyu8 | [Solution](./csharp/kyu8/convert_string_to_number/) |
 | Counting Sheep | kyu8 | [Solution](./csharp/kyu8/counting_sheep/) |
 | Even Or Odd | kyu8 | [Solution](./csharp/kyu8/even_or_odd/) |
-| Find Maximun And Minimun Values From A List | kyu8 | [Solution](./csharp/kyu8/find_maximun_and_minimun_values_from_a_list/) |
+| Find Maximum And Minimum Values From A List | kyu8 | [Solution](./csharp/kyu8/find_maximum_and_minimum_values_from_a_list/) |
 | Find Numbers Which Are Divisible By Given Number | kyu8 | [Solution](./csharp/kyu8/find_numbers_which_are_divisible_by_given_number/) |
 | Find The Smallest Int | kyu8 | [Solution](./csharp/kyu8/find_the_smallest_int/) |
 | Grasshopper Summation | kyu8 | [Solution](./csharp/kyu8/grasshopper_summation/) |

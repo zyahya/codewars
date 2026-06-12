@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Codewars.Solutions.kyu8.SumArray;
+namespace Codewars.Solutions.kyu8.sum_array;
 
 public class SumArray
 {

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Codewars.Solutions.kyu8.FindMaximumAndMinimumValuesOfAList;
+namespace Codewars.Solutions.kyu8.find_maximum_and_minimum_values_from_a_list;
 
 public class FindMaximumAndMinimumValuesOfAList
 {

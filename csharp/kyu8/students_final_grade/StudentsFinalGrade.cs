@@ -1,4 +1,4 @@
-﻿namespace Codewars.Solutions.kyu8.StudentsFinalGrade;
+﻿namespace Codewars.Solutions.kyu8.students_final_grade;
 
 public class StudentsFinalGrade
 {

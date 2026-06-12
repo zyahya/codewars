@@ -1,4 +1,4 @@
-﻿namespace Codewars.Solutions.kyu8.OppositeNumber;
+﻿namespace Codewars.Solutions.kyu8.opposite_number;
 
 public class OppositeNumber
 {

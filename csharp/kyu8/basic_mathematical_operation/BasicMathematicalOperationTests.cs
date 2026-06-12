@@ -1,4 +1,4 @@
-﻿namespace Codewars.Solutions.kyu8.BasicMathematicalOperation;
+﻿namespace Codewars.Solutions.kyu8.basic_mathematical_operation;
 
 public class BasicMathematicalOperationTests
 {

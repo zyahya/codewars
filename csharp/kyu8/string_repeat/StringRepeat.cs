@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Codewars.Solutions.kyu8.StringRepeat;
+namespace Codewars.Solutions.kyu8.string_repeat;
 
 public class StringRepeat
 {

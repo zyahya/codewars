@@ -1,4 +1,4 @@
-﻿namespace Codewars.Solutions.kyu8.IsTheStringUppercase;
+﻿namespace Codewars.Solutions.kyu8.is_the_string_uppercase;
 
 public class IsTheStringUppercaseTests
 {

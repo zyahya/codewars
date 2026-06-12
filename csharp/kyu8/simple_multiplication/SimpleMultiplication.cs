@@ -1,4 +1,4 @@
-﻿namespace Codewars.Solutions.kyu8.SimpleMultiplication;
+﻿namespace Codewars.Solutions.kyu8.simple_multiplication;
 
 public class SimpleMultiplication
 {

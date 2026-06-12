@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace Codewars.Solutions.kyu8.SquareNSum;
+namespace Codewars.Solutions.kyu8.square_n_sum;
 
 public class SquareNSum_Optimized
 {

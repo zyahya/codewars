@@ -1,4 +1,4 @@
-﻿namespace Codewars.Solutions.kyu8.MakeUpperCase;
+﻿namespace Codewars.Solutions.kyu8.make_upper_case;
 
 public class MakeUpperCase
 {

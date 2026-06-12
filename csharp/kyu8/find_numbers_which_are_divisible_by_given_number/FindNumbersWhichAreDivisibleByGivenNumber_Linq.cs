@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace Codewars.Solutions.kyu8.FindNumbersWhichAreDivisibleByGivenNumber;
+namespace Codewars.Solutions.kyu8.find_numbers_which_are_divisible_by_given_number;
 
 public class FindNumbersWhichAreDivisibleByGivenNumber_Linq
 {

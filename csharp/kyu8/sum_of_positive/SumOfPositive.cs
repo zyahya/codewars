@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Codewars.Solutions.kyu8.SumOfPositive;
+namespace Codewars.Solutions.kyu8.sum_of_positive;
 
 public class SumOfPositive
 {

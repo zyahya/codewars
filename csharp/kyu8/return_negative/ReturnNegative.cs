@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codewars.Solutions.kyu8.ReturnNegative;
+namespace Codewars.Solutions.kyu8.return_negative;
 
 public class ReturnNegative
 {
